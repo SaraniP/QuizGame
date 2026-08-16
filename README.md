@@ -44,8 +44,8 @@ While working on this project, I learned how to structure a webpage using HTML, 
 I also learned how to make a website responsive so that it can be used on both desktop and mobile screens.
 
 ## Live Demo
-Play Quiz Game
-https://saranip.github.io/QuizGame/
+
+[Play Quiz Game](https://saranip.github.io/QuizGame/)
 
 
 Author
