@@ -42,9 +42,9 @@ What I Learned
 
 While working on this project, I learned how to structure a webpage using HTML, style it using CSS, and use JavaScript to handle user actions, questions, scoring, timers, and dynamic content.
 I also learned how to make a website responsive so that it can be used on both desktop and mobile screens.
+
 Live Demo
+ https://saranip.github.io/QuizGame/
 
-Coming soon...
 Author
-
 Sarani P
