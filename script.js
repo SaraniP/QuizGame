@@ -156,14 +156,23 @@ function showQuestion() {
 
         <h2>${question.question}</h2>
 
-        <div class="options">
-            ${question.options.map(option => `
-                <button class="option-btn" onclick="checkAnswer('${option}')">
-                    ${option}
-                </button>
-            `).join("")}
-        </div>
+        <div class="options"></div>
     `;
+
+    const optionsContainer = container.querySelector(".options");
+
+    question.options.forEach(option => {
+        const button = document.createElement("button");
+
+        button.className = "option-btn";
+        button.textContent = option;
+
+        button.addEventListener("click", () => {
+            checkAnswer(option);
+        });
+
+        optionsContainer.appendChild(button);
+    });
 
     startTimer();
 }
@@ -204,12 +213,12 @@ function checkAnswer(selectedAnswer) {
     buttons.forEach(button => {
         button.disabled = true;
 
-        if (button.innerText === question.answer) {
+        if (button.textContent === question.answer) {
             button.classList.add("correct");
         }
 
         if (
-            button.innerText === selectedAnswer &&
+            button.textContent === selectedAnswer &&
             selectedAnswer !== question.answer
         ) {
             button.classList.add("wrong");
