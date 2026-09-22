@@ -45,7 +45,7 @@ I also learned how to make a website responsive so that it can be used on both d
 
 ## Live Demo
 
-[Play Quiz Game](https://saranip.github.io/QuizGame/)
+Play Quiz Game :(https://saranip.github.io/QuizGame/
 
 
 Author
